@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dice gamble</string>
+    <string name="titleAwal">Are you ready to gamble\?</string>
+    <string name="hint_coin">Insert Your Coin\!</string>
+    <string name="hint_pilihan">Insert Your Lucky Number\!</string>
+
+
+    <string name="radio1">I</string>
+    <string name="radio2">II</string>
+    <string name="radio3">III</string>
+    <string name="radio4">IV</string>
+    <string name="radio5">V</string>
+    <string name="radio6">VI</string>
+
+    <string name="Roll">ROLL THE DICE</string>
+    <string name="coin_invalid">Coin tidak boleh kosong atau nol.</string>
+    <string name="luckyDice_invalid">Dice pilihan tidak boleh kosong.</string>
+    <string name="diatas0_invalid">Dice pilihan tidak boleh dibawah 1.</string>
+    <string name="dibawah7_invalid">Dice pilihan tidak boleh diatas 6.</string>
+
+    <string name="putaranDadu_x">Hasil putaran dadu: %1$s</string>
+    <string name="menangKalah_x">You %1$s</string>
+    <string name="menang">Win\!</string>
+    <string name="kalah">Lose\!</string>
+    <string name="menangGamble_x">Anda menang 2x coin anda sebanyak : %1$s</string>
+    <string name="kalahGamble_x">Anda kehilangan coin sebanyak : %1$s</string>
+</resources>
