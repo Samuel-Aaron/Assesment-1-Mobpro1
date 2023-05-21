@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragment_DG">
+
+    <fragment
+        android:id="@+id/fragment_DG"
+        android:name="org.d3if3122.mobpro1.dicegamble.fragment_DG"
+        android:label="fragmen_dg_main"
+        tools:layout="@layout/fragmen_dg_main" >
+        <action
+            android:id="@+id/action_fragment_DG_to_share_fragment"
+            app:destination="@id/share_fragment" />
+        <action
+            android:id="@+id/action_fragment_DG_to_about_fragment"
+            app:destination="@id/about_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/share_fragment"
+        android:name="org.d3if3122.mobpro1.dicegamble.share_fragment"
+        android:label="share_fragment" >
+        <argument
+            android:name="wonloss"
+            app:argType="org.d3if3122.mobpro1.model.DiceGamble_WinLoss" />
+    </fragment>
+    <fragment
+        android:id="@+id/about_fragment"
+        android:name="org.d3if3122.mobpro1.dicegamble.about_fragment"
+        android:label="about_fragment" />
+</navigation>

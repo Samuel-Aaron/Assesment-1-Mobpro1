@@ -24,4 +24,17 @@
     <string name="kalah">Lose\!</string>
     <string name="menangGamble_x">Anda menang 2x coin anda sebanyak : %1$s</string>
     <string name="kalahGamble_x">Anda kehilangan coin sebanyak : %1$s</string>
+
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">DiceGamble merupakan sebuah aplikasi Android untuk
+mempertaruhkan uang palsu dengan cara memilih angka spesial dari salah satu angka dadu,
+aplikasi ini dibuat untuk ujian assesment Mobile Programming 1 Telkom University,
+dibuat oleh Samuel Aaron - 6706213122</string>
+
+
+
+    <string name="share">Share Hasil</string>
+    <string name="congratulations">Congratulations, you won your gamble.</string>
+    <string name="nt">Nice try, better luck next time.</string>
+
 </resources>
